@@ -4,3 +4,7 @@ date: 2026-09-08
 categories: [Internship 2026, Progress]
 tags: [imitation-learning, local-planning, ros2, nav2]
 ---
+
+# Week 1
+
+This week marks the beginning of my JdeRobot 2026 Internship.
