@@ -1,6 +1,7 @@
 ---
 title: "Internship Progress Week 1"
 date: 2026-09-08
+math: true
 categories: [Internship 2026, Progress]
 tags: [imitation-learning, local-planning, ros2, nav2, unibotics]
 ---
@@ -19,9 +20,9 @@ $$
 
 where:
 
-- **\(M_t\)**: local 2D map around the vehicle.
-- **\(G_t\)**: local goal or subgoal.
-- **\(P_t\)**: local path represented as a sequence of waypoints.
+- **$$ M_t $$**: local 2D map around the vehicle.
+- **$$ G_t $$**: local goal or subgoal.
+- **$$ P_t $$**: local path represented as a sequence of waypoints.
 
 I first studied **DWA (Dynamic Window Approach)** and **DWB**, the Nav2 controller based on DWA.
 
@@ -35,7 +36,7 @@ $$
 \Pi_{expert}(M_t, G_t) \rightarrow P_t^*
 $$
 
-The resulting path \(P_t^*\) will be used as the expert demonstration for the Imitation Learning dataset.
+The resulting path $$ P_t^* $$ will be used as the expert demonstration for the Imitation Learning dataset.
 
 I also started working with the **UniBotics Obstacle Avoidance environment** and configured the Robotics Backend using Docker, w ROS2 Humble and Gazebo harmonic
 
@@ -59,11 +60,11 @@ This week I mainly learned:
 
 - The difference between **local navigation** and **local path planning**.
 - The basic operation of DWA and DWB.
-- Why the expert for our dataset should generate a path \(P_t^*\).
+- Why the expert for our dataset should generate a path $$ P_t^* $$.
 - How pose, yaw and local goals are represented in UniBotics.
 - How LiDAR provides distance measurements to nearby obstacles.
 - The difference between global coordinates and coordinates relative to the vehicle.
-- How linear velocity \(V\) and angular velocity \(W\) affect the vehicle motion.
+- How linear velocity $$ V $$ and angular velocity $$ W $$ affect the vehicle motion.
 - How the angular error between the vehicle orientation and the goal can be used to orient the vehicle.
 
 ## Next Steps
