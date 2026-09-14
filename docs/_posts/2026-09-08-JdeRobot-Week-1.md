@@ -51,7 +51,7 @@ HAL.setW()
 ```
 
 This allowed me to inspect the vehicle position, yaw orientation, LiDAR measurements, local goal and basic motion commands.
-![Entorno UniBotics]({{ '/assets/img/week-1.png' | relative_url }})
+![Entorno UniBotics](/assets/img/image.png)
 
 ## What I learned
 
