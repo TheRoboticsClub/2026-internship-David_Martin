@@ -81,7 +81,7 @@ From the first recorded trajectory, I generated **169 supervised samples**.
 ## Navigation demo
 
 <video controls width="100%">
-  <source src="/assets/vid/2026-10-06%2000-25-41.mp4" type="video/mp4">
+  <source src="{{ '/assets/vid/2026-10-06%2000-25-41.mp4' | relative_url }}" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
