@@ -12,7 +12,7 @@ This week I focused mainly on **validating and extending the dataset generation 
 
 First, I analyzed the first dataset generated last week, which contained **169 supervised samples**. I created a validation script to visually inspect different samples and verify that the LiDAR, global plan and future trajectory were correctly aligned in the robot frame.
 
-![Dataset validation sample 1]({{ '/assets/img/week5-1.png' | relative_url }})
+![Dataset validation sample 1](/assets/img/week5-1.png)
 
 During this validation, I also updated the odometry input. Since the robot is currently configured as **holonomic**, the network input now contains:
 
@@ -24,7 +24,7 @@ instead of only `(v, w)`.
 
 This allows the dataset to represent lateral motion correctly.
 
-![Dataset validation sample 2]({{ '/assets/img/week5-2.png' | relative_url }})
+![Dataset validation sample 2](/assets/img/week5-2.png)
 
 ## Human demonstrations
 
