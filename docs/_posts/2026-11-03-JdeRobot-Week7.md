@@ -31,7 +31,7 @@ We implemented an inference node that receives the navigation data, applies the 
 The predicted trajectory and its five orientations are displayed in RViz alongside the Nav2 global plan. We recorded these predictions while **Nav2 continued driving the vehicle**; the neural network did not control its movement.
 
 <video controls width="100%">
-  <source src="{{ '/assets/vid/ShowPredictions5PosestBASELINE_v1.mp4' | relative_url }}" type="video/mp4">
+  <source src="{{ '/assets/vid/ShowPredictions_5PosestBASELINE_v1.mp4' | relative_url }}" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
